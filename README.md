@@ -17,8 +17,10 @@ This workflow will import:
 
 ### Prerequisites
 
-- A known working Cisco UCS Server Template to derive Server Profiles for each blade.
-- M2 RAID controllers on each blade with a minimum of
+- A known working Cisco UCS Server Template (and policies) to derive Server Profiles for each blade.
+- M2 RAID controllers on each blade with a minimum of 2 disks
+- A Working SCU Image set under "System" -> "Software Repository" for your target platform
+- A Working OS Image for each Operating System set under "System" -> "Software Repository"
 
 ### Import
 
