@@ -1,6 +1,18 @@
 # Baremetal-Install-Multiple-Servers
 This Repository contains Cisco Intersight Workflows to Install ESXi, Windows Server and RHEL over multiple UCS X Series Blades at once on local disks. May also work for other UCS Standalone or IMM Servers but hasn't been tested at the moment. 
 
+This workflow will import:
+
+- Baremetal Install Multiple Hosts (Workflow)
+- Deploy Windows Server on Local Virtual Disk (Workflow)
+- Deploy ESXi Host on Local Virtual Drive (Workflow)
+- Deploy RHEL Host on Local Virtual Disk (Workflow)
+- Get Virtual Drives from Server (Workflow)
+- Baremetal Install from JSON (Workflow)
+- ESXi Baremetal Install Hosts (Custom Data Type)
+- Windows Server Baremetal Install Hosts (Custom Data Type)
+- RHEL Baremetal Install Hosts (Custom Data Type)
+
 ## Work in Progress...
 
 ### Prerequisites
